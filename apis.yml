@@ -1,8 +1,24 @@
 aid: slingshot-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slingshot-ai.png
 name: Slingshot AI
-description: Slingshot AI is a company surfaced as a portfolio company of a16z, forerunner-ventures, menlo-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Slingshot AI is a mental-health AI research lab building a foundation model for psychology. Its
+  consumer product, Ash, is a voice- and text-based AI companion for mental health support, trained on
+  behavioral-health approaches including CBT, DBT, ACT, psychodynamic therapy, and motivational interviewing,
+  and shipped as a free iOS and Android app. Founded by Neil Parikh (co-founder of Casper) and Daniel Reid
+  Cahn, the company has raised roughly $93M from investors including Andreessen Horowitz (a16z), Forerunner
+  Ventures, Menlo Ventures, and Radical Ventures. As of this pass Slingshot AI publishes no public developer
+  API, SDK, or developer portal; Ash is a consumer-facing application at talktoash.com.
 url: https://raw.githubusercontent.com/api-evangelist/slingshot-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mental Health
+- Artificial Intelligence
+- Healthcare
+- Digital Therapeutics
+- Chatbot
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/slingshot-ai-domain-security.yml
 - type: Website
   url: https://slingshotai.com
+- type: GitHubOrganization
+  url: https://github.com/slingshot-ai
+- type: PrivacyPolicy
+  url: https://talktoash.com/privacy
+- type: TermsOfService
+  url: https://talktoash.com/terms
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
