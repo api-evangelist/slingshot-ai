@@ -12,13 +12,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slingshot-ai.png
 name: Slingshot AI
-description: Slingshot AI is a mental-health AI research lab building a foundation model for psychology. Its
-  consumer product, Ash, is a voice- and text-based AI companion for mental health support, trained on
-  behavioral-health approaches including CBT, DBT, ACT, psychodynamic therapy, and motivational interviewing,
-  and shipped as a free iOS and Android app. Founded by Neil Parikh (co-founder of Casper) and Daniel Reid
-  Cahn, the company has raised roughly $93M from investors including Andreessen Horowitz (a16z), Forerunner
-  Ventures, Menlo Ventures, and Radical Ventures. As of this pass Slingshot AI publishes no public developer
-  API, SDK, or developer portal; Ash is a consumer-facing application at talktoash.com.
+description: Slingshot AI is a mental-health AI research lab building a foundation model for psychology.
+  Its consumer product, Ash, is a voice- and text-based AI companion for mental health support, trained
+  on behavioral-health approaches including CBT, DBT, ACT, psychodynamic therapy, and motivational interviewing,
+  and shipped as a free iOS and Android app. Founded by Neil Parikh (co-founder of Casper) and Daniel
+  Reid Cahn, the company has raised roughly $93M from investors including Andreessen Horowitz (a16z),
+  Forerunner Ventures, Menlo Ventures, and Radical Ventures. As of this pass Slingshot AI publishes no
+  public developer API, SDK, or developer portal; Ash is a consumer-facing application at talktoash.com.
 url: https://raw.githubusercontent.com/api-evangelist/slingshot-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -56,6 +56,22 @@ common:
   url: https://talktoash.com/privacy
 - type: TermsOfService
   url: https://talktoash.com/terms
+- type: DomainSecurity
+  url: security/slingshot-ai-domain-security.yml
+- type: Careers
+  url: https://slingshotai.com/careers
+- type: Press
+  url: https://slingshotai.com/press
+- type: X-Product
+  url: https://www.talktoash.com
+- type: AppStore
+  url: https://apps.apple.com/us/app/ash-ai-for-mental-health/id6474862947
+- type: LinkedIn
+  url: https://www.linkedin.com/company/slingshotai
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/slingshot-ai
+- type: DomainSecurity
+  url: security/slingshot-ai-domain-security.yml
 x-enrichment:
   date: '2026-07-21'
   status: minimal
