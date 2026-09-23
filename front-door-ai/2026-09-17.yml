@@ -1,0 +1,29 @@
+# Front Door AI Index — slingshot-ai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: slingshot-ai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: slingshotai.com
+  final_host: slingshotai.com
+  ownership: own
+  owner: slingshot-ai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 38
+  host_score: 38
+  density: 18.23
+  words: 2084
+  tiers:
+    agentic: 3
+    core: 35
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 19
+    foundation model: 10
+    AI assistant: 3
+    LLMs: 3
+    large language model: 3
